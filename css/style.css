@@ -1,0 +1,47 @@
+body {
+    background: #FFCC00;
+}
+
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+h1 {
+    background-color: yellow;
+/*    text-align: right;*/
+    text-align: center;
+    color: purple;
+    padding: 40px;
+    margin: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.numberlist {
+/*
+    position: relative;
+    top: -40px;
+*/
+    width: 30%;
+    border: 1px solid purple;
+    background: white;
+}
+
+@media only screen and (max-width: 660px) {
+    body {
+        background: red;
+    }
+    .numberlist {
+        width: 100%;
+    }
+}
